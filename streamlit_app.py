@@ -49,4 +49,4 @@ add_my_fruit = streamlit.text_input('What fruit would you like to add?', '')
 streamlit.write('Thank you for adding ', add_my_fruit)
 
 # add rows to Our Fruit List in Snowflake
-my_cur.execute("insert into fruit_load_list values ('from streamlit')");
+my_cur.execute("insert into fruit_load_list values ('from streamlit')")
